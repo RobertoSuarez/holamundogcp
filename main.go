@@ -8,7 +8,7 @@ import (
 
 func main() {
 
-	viper.SetDefault("PORT", 3000)
+	viper.SetDefault("PORT", 8080)
 	app := fiber.New()
 
 	app.Get("/", func(c *fiber.Ctx) error {
